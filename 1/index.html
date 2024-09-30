@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Shop</title>
+    <style> 
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-weight: bold;
+            color: white;
+        }
+
+        body{
+            font: sans-serif;
+            background-color: #2c2c2c;
+        }
+        header{
+            height: 70px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom: 1px solid rgb(0, 0, 0);
+        }
+        ul{
+            display: flex;
+            padding: 5px;
+            list-style-type: none;
+
+        }
+        ul li a{
+            margin: 0 10px;
+            padding: 7px;
+            border: 2px solid white;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+        }
+        .logo{
+            /* border: 2px solid white; */
+            padding: 10px 5px;
+        }
+        .signup{
+            background-color: white;
+            color: black;
+        }
+        .signup:hover{
+            background-color: black;
+            color: white;
+      
+        }
+        main{
+            display: flex;
+            height: 90vh;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 0px 150px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        main h2{
+            font-size: 40px;
+            text-transform: uppercase;
+        }
+        main p{
+            font-size: 14px;
+            font-weight: 200 ;
+            line-height: 31px;
+            margin: 30px ;
+        }
+        .contentleft{
+            flex: 1;
+            float: left;
+        }
+        .contentmid{
+            flex: 2;
+        }
+        .contentright{
+            flex: 1;
+        }
+        .merc{ 
+          max-width: 500px;
+          height: auto;
+             
+        }
+        .btn{
+            padding: 15px 30px;
+            background-color: white;
+            outline: none;
+            
+            color: black;
+            border-radius: 50px;
+            text-transform: uppercase;
+            font-weight: 70px;
+
+        }
+        .btn:hover{
+            background: #2c2c2c;
+            color: rgb(255, 255, 255);
+            border: 2px solid white;
+
+        }
+        .images{
+            height: 50px;
+            width: 100%;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="1510167321-clipart-lg.png" alt="" class="images"></div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Buy Now</a></li>
+                <li><a href="#">Sell Now</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#" class="signup">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contentleft">
+            <h2>Mercury
+            </h2>
+        </div>
+        <div class="contentmid">
+            <p>Mercury, the innermost planet of the solar system and the eighth in size and mass. Its closeness to the Sun and its smallness make it the most elusive of the planets visible to the unaided eye. Because its rising or setting is always within about two hours of the Sun’s, it is never observable when the sky is fully dark. Mercury is designated by the symbol ☿. <br>
+                Mercury is the closest planet to the Sun, at a distance of 57.91 million kilometers / 35.98 miles or 0.4 AU away. It takes sunlight 3.2 minutes to travel from the Sun to Mercury.
+            </p>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="contentright">
+            <img src="about1.png" alt="" class="merc">
+
+        </div>
+
+    </main>
+</body>
+</html>
